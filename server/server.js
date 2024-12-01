@@ -11,7 +11,7 @@ const isDevelopment = process.env.NODE_ENV === "development";
 
 // CORS configuration
 const allowedOrigin = isDevelopment
-  ? "http://localhost:5173"
+  ? "http://localhost:8080"
   : "https://your-production-url.com";
 
 console.log("CORS Origin:", allowedOrigin);

@@ -1,5 +1,5 @@
 import request from "supertest";
-import app from "../server"; // Import the app
+import app from "../server";
 
 describe("Auth Routes", () => {
   const testUser = {
